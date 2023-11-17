@@ -21,3 +21,8 @@ The comment_text was taken from wikipedia comments that were then manually judge
 The best model I found was a logistic regression model that had a recall rate around 80-85% and an accuracy of 87%, this means 80-85% of the toxic comments were identified correctly by this model. Here are two examples, one is mean, the other is an opinion that some may not agree with but is not being flagged as toxic. 
 
 !['model_examples'](model_examples.png)
+
+
+# Conclusion
+
+While the model performs much better than the baseline, there is still a lot of room for improvement. My next steps are to gather more toxic data as currently it makes up only around 10% of the total dataset. I would like to also further improve the model by playing around with different hyperparameters. I also want to create a sensitivity slider that would allow more or less toxic comments through, based on an individual's preferences as well as specific models for different social media platforms and perhaps different video games as well. Next I would like to release the models as perhaps a google extension and hopefully increase positivity in the world 😀
