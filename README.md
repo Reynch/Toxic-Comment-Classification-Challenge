@@ -19,4 +19,4 @@ The comment_text was taken from wikipedia comments that were then manually judge
 
 # Model
 The best model I found was a logistic regression model that had a recall rate around 80-85% and an accuracy of 87%, this means 80-85% of the toxic comments were identified correctly by this model. Here are two examples, one is mean, the other is an opinion that some may not agree with but is not being flagged as toxic. 
-!['model_examples'](../model_examples.png)
+!['model_examples']([../model_examples.png](https://github.com/Reynch/Toxic-Comment-Classification-Challenge/blob/main/model_examples.png)https://github.com/Reynch/Toxic-Comment-Classification-Challenge/blob/main/model_examples.png)
